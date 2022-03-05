@@ -87,7 +87,41 @@ footer {
 footer a{
     color: white;
     text-decoration: none;
+
 }
+.container-skins{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.skin-yasuo{
+    width: 320px;
+
+}
+.skin-yasuo-text{
+    background-color: #0f1519;
+    border: solid goldenrod 1px;
+    color: wheat;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+.skin-yasuo-text p{
+    margin-top: 10px;
+}
+.skin-yasuo-text h2{
+    text-align: center;
+}
+@media (max-width: 1200px)
+  {
+    .container-skins{
+        width: 100%;
+    }
+    .skin-yasuo{
+          width: 280px;
+      }
+  }
 @media (max-width: 900px)
 {
   .logo{
@@ -112,8 +146,20 @@ footer a{
      width: 100%;
      margin-top: 20px;
  }
- 
-
+ .container-skins{
+     width: 75%;
+     flex-wrap: wrap;
+ }
+.skin-yasuo{
+    width: 100%;
+    padding-top: 80px;
+}
+}
+@media (max-width: 600px)
+{
+    .container-skins{
+        width: 90%;
+    }
 }
 @media (max-width: 300px)
 {
