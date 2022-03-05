@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #0a0e13;;
+}
+
+header{
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.logo{
+    display: flex;
+}
+nav{
+    width: 100%;
+    background-color: blanchedalmond;  
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+
+nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+nav a:hover{
+    background-color: aqua;
+}
+.container-main{
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+}
+.articulo{
+    width: 50%;
+    color: wheat;
+}
+.articulo-text{
+    background-color: #0f1519;
+    border: solid goldenrod 1px;
+    padding: 10px 15px;
+
+}
+.aside{
+    width: 40%;
+    height: auto;
+    background-color: #0f1519;
+    font-size: 19px;
+    color: wheat;
+    border: solid goldenrod 1px;
+
+}
+
+
+.aside  h2{
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.aside p{
+    margin-top: 30px;
+    padding: 10px 15px;
+}
+footer {
+    width: 90%;
+    height: 50px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 900px)
+{
+  .logo{
+      justify-content: center;
+  }  
+ nav{
+     display: none;
+ }
+ .container-main{
+     flex-wrap: wrap;
+    }
+ .articulo{
+     width: 100%;
+ }
+
+ .articulo-text{
+     margin-top: 20px;
+ }
+ 
+ 
+ .aside{
+     width: 100%;
+     margin-top: 20px;
+ }
+ 
+
+}
+@media (max-width: 300px)
+{
+    .articulo img{
+        width: 100%;
+        height: 200px;
+    }
+}
