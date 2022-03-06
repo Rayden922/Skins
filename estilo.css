@@ -96,7 +96,11 @@ footer a{
     margin: 150px auto;
     max-width: 1200px;
 }
-
+.container-skins h2{
+    color: wheat;
+    text-align: center;
+    font-size: 45px;
+}
 .skins{
     width: 100%;
     display: flex;
