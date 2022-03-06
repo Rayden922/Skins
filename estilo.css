@@ -121,15 +121,21 @@ footer a{
 .text-yasuo h2{
     font-size: 30px;
     color: wheat;
+    text-align: center;
 
 }
-.text-yasuo p{
-    font-size: 20px;
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.boton a{
+    padding: 10px 15px;
+    background-color: cadetblue;
     color: wheat;
-    margin-top: 5px;
-    position: relative;
-    top: 10px;
-    
+    text-decoration: none;
+    font-size: 25px;
 }
 @media (max-width: 1000px)
 {
