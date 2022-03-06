@@ -89,16 +89,64 @@ footer a{
     text-decoration: none;
 
 }
-.titulo-skins{
-    width: 100%;
-    text-align: center;
-    color: wheat;
-    margin-top: 30px;
-    font-size: 50px;
+
+.container-skins{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+    max-width: 1200px;
 }
 
+.skins{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-yasuo{
+    width: 30%;
+    min-width: 200px;
+}
+.img-yasuo{
+    width: 100%;
+}
+.img-yasuo img{
+    height: 250px;
+}
+.text-yasuo{
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #0f1519;
+    margin-top: 15px;
+}
+.text-yasuo h2{
+    font-size: 30px;
+    color: wheat;
 
-@media (max-width: 700px)
+}
+.text-yasuo p{
+    font-size: 20px;
+    color: wheat;
+    margin-top: 5px;
+    position: relative;
+    top: 10px;
+    
+}
+@media (max-width: 1000px)
+{
+.container-skins{
+    width: 90%;
+    
+}
+.skins{
+    justify-content: space-between;
+    width: 100%;
+}
+.img-yasuo img{
+    width: 100%;
+    height: 100%;
+}
+}
+@media (max-width: 770px)
 {
   .logo{
       justify-content: center;
@@ -122,14 +170,25 @@ footer a{
      width: 100%;
      margin-top: 20px;
  }
- 
- 
-}
+ .skins{
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .container-yasuo{
+     width: 70%;
+ }
+ .text-yasuo{
+     margin-top: 50px;
 
-@media (max-width: 300px)
+ }
+ .img-yasuo{
+     margin-top: 50px;
+ }
+}
+@media (max-width:400px)
 {
-    .articulo img{
-        width: 100%;
-        height: 200px;
+    .container-yasuo{
+        width: 90%;
     }
 }
+
