@@ -93,11 +93,15 @@ nav a:hover{
     height: 600px;
     background-color: #0f1519;
     max-width: 1200px;
-    margin: auto;
+    margin: 150px auto;
     padding-top: 20px;
     overflow-y: scroll;
-    margin-top: 300px;
  
+}
+h1{
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
 }
 .container-skins-akali{
     width: 100%;
@@ -233,6 +237,7 @@ nav a:hover{
  .akali-skins{
      height: auto;
      overflow: hidden;
+     
  }
  .imagen-akali{
      width: 35%;
