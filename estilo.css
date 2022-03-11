@@ -140,10 +140,7 @@ h1{
     justify-content: space-between;
 }
 
-.container-skins{
-    width: 100%;
-    height: auto;
-}
+
 
 .container-yasuo{
     width: 30%;
@@ -152,9 +149,7 @@ h1{
 .img-yasuo{
     width: 100%;
 }
-.img-yasuo img{
-    height: 250px;
-}
+
 .text-yasuo{
     width: 100%;
     padding: 10px 25px;
@@ -186,11 +181,14 @@ h1{
     justify-content: space-between;
     margin-top: 50px;
 }
-@media (max-width: 1000px)
+@media (max-width: 1200px)
 {
 .container-skins{
-    width: 90%;
+    width: 95%;
     
+}
+.container-yasuo{
+    width: 30%;
 }
 .skins{
     justify-content: space-between;
@@ -209,7 +207,7 @@ h1{
     overflow-y: scroll;
 }
 }
-@media (max-width: 770px)
+@media (max-width: 830px)
 {
   .logo{
       justify-content: center;
@@ -241,11 +239,10 @@ h1{
      
  }
  .imagen-akali{
-     width: 35%;
+     width: 30%;
  }
  .skin-video{
-     width: 75%;
-     height: 300px;
+     width:72%;
      margin-top: 45px;
  }
  
@@ -278,8 +275,10 @@ h1{
     .aside p{
         font-size: 15px;
     }
+  .skin-video{
+      width: 90%;
+  }
 }
-
 @media (max-width:415px)
 {
     .container-yasuo{
@@ -292,6 +291,9 @@ h1{
         font-size: 11.5px;
         
     }
-
+    .imagen-akali{
+        width: 45%;
+    }
+  
 
 }
